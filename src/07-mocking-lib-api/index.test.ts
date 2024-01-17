@@ -10,7 +10,6 @@ describe('throttledGetDataFromApi', () => {
     jest.useRealTimers();
   });
 
-  // const timer = 5000;
   const path = 'somewhere';
 
   test('should create instance with provided base url', async () => {
